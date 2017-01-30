@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html, body {
+  margin:0;
+  background:url(back.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 4em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -2%;
+  -webkit-animation: colorText 2s infinite; /* Safari 4+ */
+  -moz-animation:    colorText 2s infinite; /* Fx 5+ */
+  -o-animation:      colorText 2s infinite; /* Opera 12+ */
+  animation:         colorText 2s infinite; /* IE 10+, Fx 29+ */
+}
+@keyframes colorText {
+  0% {
+    color: red;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color:blue;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: purple;
+  }
+}
